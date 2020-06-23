@@ -2,7 +2,7 @@ class PostsController < ApplicationController
 
   def index
     if params[:author_id]
-      
+
   else
       @posts = Post.all
     end
